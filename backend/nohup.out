@@ -1,0 +1,20 @@
+🚀 Server running on port 5000
+📊 Environment: development
+🔗 Health check: http://localhost:5000/api/health
+Error: ReferenceError: require is not defined
+    at file:///workspace/backend/server.js:62:18
+    at Layer.handle [as handle_request] (/workspace/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/workspace/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/workspace/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/workspace/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /workspace/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/workspace/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/workspace/backend/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/workspace/backend/node_modules/body-parser/lib/types/urlencoded.js:103:7)
+    at Layer.handle [as handle_request] (/workspace/backend/node_modules/express/lib/router/layer.js:95:5)
+🚀 Server running on port 5000
+📊 Environment: development
+🔗 Health check: http://localhost:5000/api/health
+❌ Error connecting to MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+⚠️  Continuing in development mode without MongoDB...
+   Note: Database operations will not work properly.
